@@ -15,12 +15,17 @@
         <button type="submit" class="todo-button">
             <i class="fas fa-plus-square"></i>
         </button>
+        <div class="select">
+            <select name="todos" class="filter-todos">
+                <option value="all">All</option>
+                <option value="complete">Complete</option>
+                <option value="uncomplete">Uncomplete</option>
+            </select>
+        </div>
     </form>
     
     <div class="todo-container">
-        <ul class="todo-list">
-            
-        </ul>
+        <ul class="todo-list"></ul>
     </div>
     
     <script src="js/main.js"></script>
