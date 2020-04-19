@@ -37,3 +37,74 @@ form button:hover{
     color: #fff;
 }
 
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list{
+    list-style: none;
+    min-width: 30%;
+}
+
+.todo{
+    background-color: #fff;
+    margin: 0.5rem 0;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 300ms ease;
+}
+
+.todo li{
+    flex: 1;
+    padding-left: 0.5rem;
+}
+
+.complete-btn, .delete-btn{
+    border: none;
+    color: #fff;
+    background-color: #fda085;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.complete-btn{
+    background-color: rgb(73,204,73);
+}
+
+.fas{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.fall{
+    transition: all 500ms ease;
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
