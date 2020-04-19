@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6d365;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    font-family: 'Manrope', Arial, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+}
+
+h1, form{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #fff;
+}
+
+form button{
+    cursor: pointer;
+    color: #f6d365;
+    transition: all 300ms ease;
+}
+
+form button:hover{
+    background: #f6d365;
+    color: #fff;
+}
+
